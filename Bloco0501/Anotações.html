@@ -1,0 +1,26 @@
+Anotações das videos aulas do Bloco 05 dia 01:
+
+<script>
+  :para colocar  o código java
+</script>
+, mas pode ser colocado em um arquivo externo como, src="nome do arquivo". É
+colocado no corpo, e não no cabeçario. Geralmente, é carregado e colocado após o
+body. #document no console, aparece dentro da página o código e vê o arquivo. É
+a partir dele que acessamos o Dom. Para acesar uma div temos que defini-lá , por
+exemplo: html:
+
+<div id="teste"></div>
+
+js: console.log(document.getElementById("teste")) Dom: o código
+document.getElementById("teste") é aberto e mostra os arquivos. Tags:
+->.innerHTML (document.getElementById("teste").innerHTML ): acesa todos os
+códigos ->.innerText (document.getElementById("teste").innerText ): acesa
+somente o texto -> document.getElementById("teste").innerText = "novo texto":
+trocar o conteúdo temporario ->
+document.getElementsByClassName("pilotos")[posição pois é um array].innerText =
+"novo texto": trocar o elemento de uma posição do array. ->
+document.getElementsByTagName : é uma função para acesar uma lista e nunca
+apenas um elemento. Ele retorna em lista. Para trocar os elementos,pode ser
+pensar no for. Porém as vezes para percorrer é interessante criar uma váriavel e
+identifica-la como : document.getElementsByClassName("pilotos"). [posição pois é
+um array].innerText : é usado para alterar propriedades
